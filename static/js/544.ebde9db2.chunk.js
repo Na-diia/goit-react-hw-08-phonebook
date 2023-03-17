@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[544],{9544:function(e,t,o){o.r(t);var r=o(6795),n=o(1077),s=o(184);t.default=function(){return(0,s.jsxs)(n.W2,{children:[(0,s.jsx)(r.Z,{}),(0,s.jsxs)(n.wg,{children:[(0,s.jsx)(n.Dx,{children:"Welcome to the phone book! "}),(0,s.jsx)(n.xv,{children:"  Here you can register to write down phone numbers that are important to you, instead of memorizing them, as you did before."})]})]})}}}]);
+//# sourceMappingURL=544.ebde9db2.chunk.js.map
