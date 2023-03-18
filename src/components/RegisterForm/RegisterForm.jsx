@@ -10,7 +10,7 @@ import { selectUser } from 'redux/selectors';
 
 const RegisterForm = () => { 
   const dispatch = useDispatch();
-  const {name, email} = useSelector(selectUser);
+  const userData = useSelector(selectUser);
 
   const formSubmit = event => {
     event.preventDefault();
@@ -18,12 +18,12 @@ const RegisterForm = () => {
     const newUserName = form.elements.name.value;
     const newUserEmail = form.elements.email.value;
     const userPassword = form.elements.password.value;
-    if(newUserName === name) {
+    if(newUserName === userData.name) {
       toast.warn('User with such name is already exist!', {
         theme: "dark"
       });
       return;
-    }else if(newUserEmail === email) {
+    }else if(newUserEmail === userData.email) {
        toast.warn('User with such email is already exist!', {
         theme: "dark"
        });
@@ -33,7 +33,6 @@ const RegisterForm = () => {
       name: newUserName, 
       email: newUserEmail, 
       password: userPassword}));
-    form.reset();
   };
  
   return (

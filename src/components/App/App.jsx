@@ -1,6 +1,6 @@
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {Route, Routes} from 'react-router-dom';
+import {Route, Routes, Navigate} from 'react-router-dom';
 import { Suspense, lazy, useEffect } from 'react';
 import { useDispatch, useSelector} from 'react-redux';
 
@@ -33,6 +33,7 @@ return (
   <Route path="/register" element={<RestrictedRoute component={<RegisterPage />} redirectTo="/contacts"/>} />
   <Route path="/login" element={<RestrictedRoute component={<LoginPage />} redirectTo="/contacts"/>} />
   <Route path="/contacts" element={<PrivateRoute component={<ContactsPage />} redirectTo="/"/>} />
+  <Route path='*' element={<Navigate to="/" />} />
   </Routes>
   </Suspense>
     <ToastContainer autoClose={1000}/>
