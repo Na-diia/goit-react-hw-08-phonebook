@@ -13,3 +13,5 @@ export const selectUser = state => state.auth.user;
 export const selectUserName = state => state.auth.user.name;
 
 export const selectRefreshUser = state => state.auth.isRefresh;
+
+export const selectAuthError = state => state.auth.error;
