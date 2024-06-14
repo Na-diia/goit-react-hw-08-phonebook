@@ -6,12 +6,11 @@ import { Form, Wrap } from './RegisterForm.styled';
 import { Title } from 'components/Navigation/navigation.styled';
 import { Btn } from 'components/ContactForm/ContactForm.styled';
 import { register } from 'redux/auth/auth-operations';
-import { selectUser, selectAuthError } from 'redux/selectors';
+import { selectUser} from 'redux/selectors';
 
 const RegisterForm = () => { 
   const dispatch = useDispatch();
   const userData = useSelector(selectUser);
-  const userError = useSelector(selectAuthError);
 
   const formSubmit = event => {
     event.preventDefault();
@@ -29,10 +28,6 @@ const RegisterForm = () => {
         theme: "dark"
        });
        return;
-    }else if(userError) {
-       toast.error(`${userError}!`, {
-        theme: "dark"
-       })
     }
     dispatch(register({
       name: newUserName, 
