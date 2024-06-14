@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.5188d425.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.fb58ef8c.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.721bfb29.js",
     "static/js/544.ebde9db2.chunk.js": "/goit-react-hw-08-phonebook/static/js/544.ebde9db2.chunk.js",
-    "static/js/574.aa56d23b.chunk.js": "/goit-react-hw-08-phonebook/static/js/574.aa56d23b.chunk.js",
+    "static/js/574.c8eebe5c.chunk.js": "/goit-react-hw-08-phonebook/static/js/574.c8eebe5c.chunk.js",
     "static/js/775.b23642f8.chunk.js": "/goit-react-hw-08-phonebook/static/js/775.b23642f8.chunk.js",
     "static/js/845.56e6d1b2.chunk.js": "/goit-react-hw-08-phonebook/static/js/845.56e6d1b2.chunk.js",
     "static/js/796.ed84363f.chunk.js": "/goit-react-hw-08-phonebook/static/js/796.ed84363f.chunk.js",
@@ -11,9 +11,9 @@
     "static/media/bg-img-1.jpg": "/goit-react-hw-08-phonebook/static/media/bg-img-1.954750a41434c0aee1f0.jpg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.5188d425.css.map": "/goit-react-hw-08-phonebook/static/css/main.5188d425.css.map",
-    "main.fb58ef8c.js.map": "/goit-react-hw-08-phonebook/static/js/main.fb58ef8c.js.map",
+    "main.721bfb29.js.map": "/goit-react-hw-08-phonebook/static/js/main.721bfb29.js.map",
     "544.ebde9db2.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/544.ebde9db2.chunk.js.map",
-    "574.aa56d23b.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/574.aa56d23b.chunk.js.map",
+    "574.c8eebe5c.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/574.c8eebe5c.chunk.js.map",
     "775.b23642f8.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/775.b23642f8.chunk.js.map",
     "845.56e6d1b2.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/845.56e6d1b2.chunk.js.map",
     "796.ed84363f.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/796.ed84363f.chunk.js.map",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.5188d425.css",
-    "static/js/main.fb58ef8c.js"
+    "static/js/main.721bfb29.js"
   ]
 }
